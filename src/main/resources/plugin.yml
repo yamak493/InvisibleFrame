@@ -1,0 +1,14 @@
+name: InvisibleFrame
+version: '1.0-SNAPSHOT'
+main: net.enabify.invisibleFrame.InvisibleFrame
+api-version: '1.20'
+folia-supported: true
+
+commands:
+  invisibleframe:
+    description: 透明な額縁をスポーンする
+    usage: /invisibleframe
+    permission: invisibleframe.use
+permissions:
+  invisibleframe.use:
+    default: op
